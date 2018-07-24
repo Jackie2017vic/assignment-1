@@ -19,8 +19,8 @@
         </script>
     <![endif]-->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 
     <script type="text/javascript" src="js/jquery.fullPage.js"></script>
 
@@ -28,8 +28,8 @@
         $(document).ready(function() {
             $('#fullpage').fullpage({
                 verticalCentered: true,
-                anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage', '5thPage'],
-                sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', '#8baab7']
+                anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage', '5thPage','6thPage','7thPage'],
+                sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', '#efef4f']
             });
         });
     </script>
@@ -70,10 +70,14 @@
 </head>
 <body>
   <ul id="menu"><!-- menu items -->
-      <li data-menuanchor="firstPage" class="active"><a href="#firstPage">First slide</a></li>
-      <li data-menuanchor="secondPage"><a href="#secondPage">Second slide</a></li>
-      <li data-menuanchor="3rdPage"><a href="#3rdPage">Third slide</a></li>
-      <li data-menuanchor="4thPage"><a href="#4thPage">fourth slide</a></li>
+      <li data-menuanchor="firstPage" class="active"><a href="#firstPage">Home</a></li>
+      <li data-menuanchor="secondPage"><a href="#secondPage">Network</a></li>
+      <li data-menuanchor="3rdPage"><a href="#3rdPage">Manhole Covers</a></li>
+      <li data-menuanchor="4thPage"><a href="#4thPage">Antennas</a></li>
+      <li data-menuanchor="5thPage"><a href="#5thPage">Cameras</a></li>
+      <li data-menuanchor="6thPage"><a href="#6thPage">Sightseeing</a></li>
+      <li data-menuanchor="7thPage"><a href="#7thPage">Road Sign</a></li>
+
       <!-- add another li element to create a new menu tab -->
   </ul>
 
@@ -103,18 +107,19 @@
         <div class="myContent">
           <h1>Manhole covers</h1>
           <h3>Manhole covers are one point of entry into the city's underground world, and their designs indicate what part of that world they connect to. Here are some manhole covers that might help you identify pieces of the internet.</h3>
-        </div>
-    </div>
+        </div>    
+<!--     </div> -->
+  
     <!-- section ends -->
     <!-- section starts -->
-    <div class="section fp-auto-height" id="section3">
-        <div class="myContent">
+<!--     <div class="section fp-auto-height" id="section3">
+        <div class="myContent"> -->
           <!-- row starts -->
-          <div class="row">
+          <div class="row" style="background-color: #93b2bf">
             <div class="splitLeft"><!-- left div with 25% -->
               <div class="imageBox">
                 <!-- img goes here -->
-                <h2><img src="img/m1.jpg"></h2><!-- replace with <img src="img/imagename.jpg"> tags -->
+                <h1><img src="img/m1.jpg"></h1><!-- replace with <img src="img/imagename.jpg"> tags -->
               </div>
             </div>
             <div class="splitRight"><!-- right div with 75% -->
@@ -125,21 +130,7 @@
           </div>
           <!-- row ends -->
           <!-- row starts -->
-          <div class="row">
-            <div class="splitLeft"><!-- left div with 25% -->
-              <div class="imageBox">
-                <!-- img goes here -->
-                <h2><img src="img/m2.jpg"></h2><!-- replace with <img src="img/imagename.jpg"> tags -->
-              </div>
-            </div>
-            <div class="splitRight"><!-- right div with 75% -->
-              <p><!-- paragraph -->
-               The Gas Hub’s main game is to connect homes in the Wellington, Taranaki, Manawatu, and Hawke’s Bay regions to natural gas, from the underground pipeline in your street right up to your house.
-              </p>
-            </div><!-- right section ends -->
-          </div>
-          <!-- row ends -->
-            <div class="row">
+            <div class="row" style="background-color: #93b2bf">
             <div class="splitLeft"><!-- left div with 25% -->
               <div class="imageBox">
                 <!-- img goes here -->
@@ -148,12 +139,12 @@
             </div>
             <div class="splitRight"><!-- right div with 75% -->
               <p><!-- paragraph -->
-               The Gas Hub’s main game is to connect homes in the Wellington, Taranaki, Manawatu, and Hawke’s Bay regions to natural gas, from the underground pipeline in your street right up to your house.
+               Quanta is delivered via fibre to the building and then fibre to the customer. The customer is presented with an RJ45 port. CityLink generally install a 19" fibre tray into the customers rack and then terminate fibre on SC type connectors. CityLink will then install a small CPE device connected to the fibre and give the customer an RJ45 handover circuit from that CPE device.
               </p>
             </div><!-- right section ends -->
           </div>
           <!-- row ends -->
-                     <div class="row">
+            <div class="row" style="background-color: #93b2bf">
             <div class="splitLeft"><!-- left div with 25% -->
               <div class="imageBox">
                 <!-- img goes here -->
@@ -162,23 +153,159 @@
             </div>
             <div class="splitRight"><!-- right div with 75% -->
               <p><!-- paragraph -->
-               The Gas Hub’s main game is to connect homes in the Wellington, Taranaki, Manawatu, and Hawke’s Bay regions to natural gas, from the underground pipeline in your street right up to your house.
+               Telecommunications cables are a type of guided transmission mediums. Cables are usually known to transmit electric energy (AC/DC); however, cables in telecommunications fields are used to transmit electromagnetic waves; they are called electromagnetic wave guides.
               </p>
             </div><!-- right section ends -->
           </div>
           <!-- row ends -->
-        </div>
-    </div>
+         </div>
     <!-- section ends -->
 
  
 
-<div class="section fp-auto-height" id="section4" style="background-color: #efef4f" >
+<div class="section fp-auto-height" id="section3" style="background-color: #efef4f" >
         <div class="myContent">
           <h1>Various Antennas</h1>
-          <h3>Manhole covers are one point of entry into the city's underground world, and their designs indicate what part of that world they connect to. Here are some manhole covers that might help you identify pieces of the internet.</h3>
+          <h2>An antenna is the interface between radio waves propagating through space and electric currents moving in metal conductors, used with a transmitter or receiver. Antennas are essential components of all radio equipment, and are used in radio broadcasting, broadcast television, two-way radio, communications receivers, radar, cell phones, satellite communications and other devices.</h2>
         </div>
-    </div>
+
+        <div class="row" style="background-color: #eded84">
+            <div class="splitLeft"><!-- left div with 25% -->
+              <div class="imageBox">
+                <!-- img goes here -->
+                <h3><img src="img/A1.jpg"></h3><!-- replace with <img src="img/imagename.jpg"> tags -->
+              </div>
+            </div>
+            <div class="splitRight"><!-- right div with 75% -->
+              <p><!-- paragraph -->
+             In transmission, a radio transmitter supplies an electric current to the antenna's terminals, and the antenna radiates the energy from the current as electromagnetic waves (radio waves).
+              </p>
+            </div><!-- right section ends -->
+          </div>
+
+            <div class="row" style="background-color: #eded84">
+            <div class="splitLeft"><!-- left div with 25% -->
+              <div class="imageBox">
+                <!-- img goes here -->
+                <h3><img src="img/A2.jpg"></h3><!-- replace with <img src="img/imagename.jpg"> tags -->
+              </div>
+            </div>
+            <div class="splitRight"><!-- right div with 75% -->
+              <p><!-- paragraph -->
+              Television antennas are manufactured in two different types: "indoor" antennas, to be located on top of or next to the television set, and "outdoor" antennas, mounted on a mast on top of the owner's house. They can also be mounted in a loft or attic, where the dry conditions and increased elevation are advantageous for reception and antenna longevity. Outdoor antennas are more expensive and difficult to install, but are necessary for adequate reception in fringe areas far from television stations. 
+              </p>
+            </div><!-- right section ends -->
+          </div>
+
+            <div class="row" style="background-color: #eded84">
+             <div class="splitLeft"><!-- left div with 25% -->
+              <div class="imageBox">
+                <!-- img goes here -->
+                <h3><img src="img/A3.jpg"></h3><!-- replace with <img src="img/imagename.jpg"> tags -->
+              </div>
+            </div>
+            <div class="splitRight"><!-- right div with 75% -->
+              <p><!-- paragraph -->
+              Cell tower is a cellular-enabled mobile device site where antennae and electronic communications equipment are placed — typically on a radio mast, tower, or other raised structure — to create a cell (or adjacent cells) in a cellular network. 
+              </p>
+            </div><!-- right section ends -->
+          </div>
+        </div>
+
+
+    
+
+        <div class="section fp-auto-height" id="section4" style="background-color: #f95c5c">
+        <div class="myContent">
+          <h1>Cameras</h1>
+          <h2>This can include observation from a distance by means of electronic equipment (such as closed-circuit television (CCTV) cameras)[3] or interception of electronically transmitted information (such as Internet traffic or phone calls). It can also include simple no- or relatively low-technology methods such as human intelligence agents and postal interception</h2>
+        </div>
+
+            <div class="row" style="background-color: #e87878">
+             <div class="splitLeft"><!-- left div with 25% -->
+              <div class="imageBox">
+                <!-- img goes here -->
+                <h3><img src="img/C1.jpg"></h3><!-- replace with <img src="img/imagename.jpg"> tags -->
+              </div>
+            </div>
+            <div class="splitRight"><!-- right div with 75% -->
+              <p><!-- paragraph -->
+              Our use of CCTV cameras aims to make Wellington a safe city through activities that target and prevent crime and public disorder, ensure efficient responses, and increase public safety. The CCTV system also makes it possible for us to gather information on non-police issues such as rough sleeping.
+              </p>
+            </div><!-- right section ends -->
+          </div>
+
+            <div class="row" style="background-color: #e87878">
+             <div class="splitLeft"><!-- left div with 25% -->
+              <div class="imageBox">
+                <!-- img goes here -->
+                <h3><img src="img/C2.jpg"></h3><!-- replace with <img src="img/imagename.jpg"> tags -->
+              </div>
+             </div>
+             <div class="splitRight"><!-- right div with 75% -->
+              <p><!-- paragraph -->
+             The footage is monitored by Camera Base volunteers seven days a week at Wellington Central Police station. The camera base is equipped with multiple large screens that allow cameras to be viewed simultaneously. The volunteers act as a liaison between NZ Police and our Local Hosts.
+              </p>
+            </div><!-- right section ends -->
+          </div>
+        </div>
+
+        <div class="section fp-auto-height" id="section5" style="background-color: #35c45d">
+        <div class="myContent">
+          <h1>Sightseeing</h1>
+          <h2>New infrastructures have a tendency to inherit the homes of past infrastructures, and the internet is no exception. While this is by no means an exhaustive list, these are a few interesting starting points from which you can start looking for cable markings, cameras, or other signs of internet infrastructure.</h2>
+        </div>
+
+             <div class="row" style="background-color: #5abc76">
+             <div class="splitLeft"><!-- left div with 25% -->
+              <div class="imageBox">
+                <!-- img goes here -->
+                <h3><img src="img/S1.jpg"></h3><!-- replace with <img src="img/imagename.jpg"> tags -->
+              </div>
+            </div>
+            <div class="splitRight"><!-- right div with 75% -->
+              <p><!-- paragraph -->
+             New infrastructures have a tendency to inherit the homes of past infrastructures, and the internet is no exception. There is free wifi Zone from Spark, in fact, it's not free for everyone,only to the custumers of Spark who select the monthly pay plan.
+            </div><!-- right section ends -->
+          </div>
+
+             <div class="row" style="background-color: #5abc76">
+             <div class="splitLeft"><!-- left div with 25% -->
+              <div class="imageBox">
+                <!-- img goes here -->
+                <h3><img src="img/S2.jpg"></h3><!-- replace with <img src="img/imagename.jpg"> tags -->
+              </div>
+            </div>
+            <div class="splitRight"><!-- right div with 75% -->
+              <p><!-- paragraph -->
+             Real Time Information (RTI) is up-to-the minute information on when a bus or train service is due to arrive at your stop or station.
+             RTI is more accurate than schedules because it is based on the actual locations of all buses and trains, which are constantly monitored by GPS. This information is used to predict arrival times reflecting actual conditions at the time. RTI is also smart as it learns the effects of different conditions at different items to ensure predicted times are accurate.
+             RTI is also used to provide messages advising of planned service changes or major service disruptions, enabling you to change your travel plans if necessary.
+            </div><!-- right section ends -->
+          </div>
+      </div>
+
+        <div class="section fp-auto-height" id="section6" style="background-color: #2c58f7">
+        <div class="myContent">
+          <h1>Street Sign</h1>
+          <h2>A street name sign is a type of traffic sign used to identify named roads. Street name signs are most often found posted at intersections, and are usually in perpendicularly oriented pairs identifying each of the crossing streets.</h2>
+        </div>
+
+             <div class="row" style="background-color: #5476f2">
+             <div class="splitLeft"><!-- left div with 25% -->
+              <div class="imageBox">
+                <!-- img goes here -->
+                <h3><img src="img/Sign.jpg"></h3><!-- replace with <img src="img/imagename.jpg"> tags -->
+              </div>
+            </div>
+            <div class="splitRight"><!-- right div with 75% -->
+              <p><!-- paragraph -->
+             Victoria Street is one of the areas where we want to see more people living and working in future so we have given it a make-over to make it more pedestrian friendly. The upgrade is paving the way for this area to become a great inner-city neighbourhood.
+            </div><!-- right section ends -->
+          </div>
+
+      </div>
+
 
 </body>
 </html>
