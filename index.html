@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Template using a fullpage.js plugin</title>
+    <meta name="author" content="Alvaro Trigo Lopez" />
+    <meta name="description" content="fullPage auto-height example." />
+    <meta name="keywords"  content="fullpage,jquery,demo,screen,fullscreen,auto-height,full-screen" />
+    <meta name="Resource-type" content="Document" />
+
+
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+    <link rel="stylesheet" type="text/css" href="css/examples.css" />
+
+    <!--[if IE]>
+        <script type="text/javascript">
+             var console = { log: function() {} };
+        </script>
+    <![endif]-->
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+    <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#fullpage').fullpage({
+                verticalCentered: true,
+                anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage', '5thPage'],
+                sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', '#8baab7']
+            });
+        });
+    </script>
+
+    <style>
+    /* in file css styling */
+      .myContent{
+        min-height: 300px;
+        overflow: auto;
+      }
+      .row{width:!100%;height:auto;margin:30px;float:left;}
+      .splitLeft{
+        height:auto;
+        width:25%;
+        float:left;
+      }
+      .splitRight{
+        height:auto;
+        width:75%;
+        /*background-color: grey;*/
+        float:left;
+      }
+      .imageBox{
+        width:100%;
+        height:300px;
+        background-color: #fff;
+
+      }
+      p{
+        font-size: 22px;
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-right: 20px;
+      }
+    </style>
+
+</head>
+<body>
+  <ul id="menu"><!-- menu items -->
+      <li data-menuanchor="firstPage" class="active"><a href="#firstPage">First slide</a></li>
+      <li data-menuanchor="secondPage"><a href="#secondPage">Second slide</a></li>
+      <li data-menuanchor="3rdPage"><a href="#3rdPage">Third slide</a></li>
+      <li data-menuanchor="4thPage"><a href="#4thPage">fourth slide</a></li>
+      <!-- add another li element to create a new menu tab -->
+  </ul>
+
+<div id="fullpage">
+    <!-- section starts -->
+    <div class="section" id="section0">
+       <div class="myContent">
+          <h1>Seeing network in Wellington</h1>
+        </div>
+    </div>
+    <!-- section ends -->
+    <!-- section starts -->
+    <div class="section fp-auto-height" id="section1">
+        <div class="slide" id="slide1"><!-- horizontal slide -->
+          <div class="myContent">
+              <h1>Our network</h1>
+            </div>
+        </div>
+        <div class="slide" id="slide2"><!-- second horizontal slide -->
+
+            <h1><img src="img/internet.jpg"></h1>
+        </div>
+    </div>
+    <!-- section ends -->
+    <!-- section starts -->
+    <div class="section fp-auto-height" id="section2">
+        <div class="myContent">
+          <h1>Manhole covers</h1>
+          <h3>Manhole covers are one point of entry into the city's underground world, and their designs indicate what part of that world they connect to. Here are some manhole covers that might help you identify pieces of the internet.</h3>
+        </div>
+    </div>
+    <!-- section ends -->
+    <!-- section starts -->
+    <div class="section fp-auto-height" id="section3">
+        <div class="myContent">
+          <!-- row starts -->
+          <div class="row">
+            <div class="splitLeft"><!-- left div with 25% -->
+              <div class="imageBox">
+                <!-- img goes here -->
+                <h2><img src="img/m1.jpg"></h2><!-- replace with <img src="img/imagename.jpg"> tags -->
+              </div>
+            </div>
+            <div class="splitRight"><!-- right div with 75% -->
+              <p><!-- paragraph -->
+              It's important to keep well clear of all power lines and cables. Over half of the Wellington Electricity Distribution Network is located underground
+              </p>
+            </div><!-- right section ends -->
+          </div>
+          <!-- row ends -->
+          <!-- row starts -->
+          <div class="row">
+            <div class="splitLeft"><!-- left div with 25% -->
+              <div class="imageBox">
+                <!-- img goes here -->
+                <h2><img src="img/m2.jpg"></h2><!-- replace with <img src="img/imagename.jpg"> tags -->
+              </div>
+            </div>
+            <div class="splitRight"><!-- right div with 75% -->
+              <p><!-- paragraph -->
+               The Gas Hub’s main game is to connect homes in the Wellington, Taranaki, Manawatu, and Hawke’s Bay regions to natural gas, from the underground pipeline in your street right up to your house.
+              </p>
+            </div><!-- right section ends -->
+          </div>
+          <!-- row ends -->
+            <div class="row">
+            <div class="splitLeft"><!-- left div with 25% -->
+              <div class="imageBox">
+                <!-- img goes here -->
+                <h2><img src="img/m6.jpg"></h2><!-- replace with <img src="img/imagename.jpg"> tags -->
+              </div>
+            </div>
+            <div class="splitRight"><!-- right div with 75% -->
+              <p><!-- paragraph -->
+               The Gas Hub’s main game is to connect homes in the Wellington, Taranaki, Manawatu, and Hawke’s Bay regions to natural gas, from the underground pipeline in your street right up to your house.
+              </p>
+            </div><!-- right section ends -->
+          </div>
+          <!-- row ends -->
+                     <div class="row">
+            <div class="splitLeft"><!-- left div with 25% -->
+              <div class="imageBox">
+                <!-- img goes here -->
+                <h2><img src="img/m7.jpg"></h2><!-- replace with <img src="img/imagename.jpg"> tags -->
+              </div>
+            </div>
+            <div class="splitRight"><!-- right div with 75% -->
+              <p><!-- paragraph -->
+               The Gas Hub’s main game is to connect homes in the Wellington, Taranaki, Manawatu, and Hawke’s Bay regions to natural gas, from the underground pipeline in your street right up to your house.
+              </p>
+            </div><!-- right section ends -->
+          </div>
+          <!-- row ends -->
+        </div>
+    </div>
+    <!-- section ends -->
+
+ 
+
+<div class="section fp-auto-height" id="section4" style="background-color: #efef4f" >
+        <div class="myContent">
+          <h1>Manhole covers</h1>
+          <h3>Manhole covers are one point of entry into the city's underground world, and their designs indicate what part of that world they connect to. Here are some manhole covers that might help you identify pieces of the internet.</h3>
+        </div>
+    </div>
+
+</body>
+</html>
