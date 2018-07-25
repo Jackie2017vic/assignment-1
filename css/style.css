@@ -112,6 +112,8 @@ html {
 body {
 	color: black;
 	letter-spacing: .18em;
+/*	background-image: url(network.jpg);
+	background-size: cover;*/
 }
 
 a {
