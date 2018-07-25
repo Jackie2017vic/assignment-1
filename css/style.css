@@ -101,7 +101,8 @@
 * {
 	margin: 0;
 	padding: 0;
-	font-family: 'Alegreya Sans', Arial, sans-serif;
+	/*font-family: 'Alegreya Sans', Arial, sans-serif;*/
+	font-family: 'Kirang Haerang', cursive;
 	text-transform: uppercase;
 }
 
@@ -112,8 +113,7 @@ html {
 body {
 	color: black;
 	letter-spacing: .18em;
-/*	background-image: url(network.jpg);
-	background-size: cover;*/
+    font-family: 'Kirang Haerang', cursive;
 }
 
 a {
@@ -142,6 +142,7 @@ ul, li {
 }
 
 h1 {
+	font-family: 'Kirang Haerang', cursive;
 	line-height: 70px;
 	height: 70px;
 }
